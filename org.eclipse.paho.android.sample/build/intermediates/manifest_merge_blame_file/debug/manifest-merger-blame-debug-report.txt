@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.eclipse.paho.android.sample"
+4    android:versionCode="1"
+5    android:versionName="0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml
+10
+11    <!-- Permissions the Application Requires -->
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:8:5-68
+12-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:9:5-81
+13-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:10:5-79
+14-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:10:22-76
+15
+16    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:13:5-80
+17-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:13:22-77
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:14:5-67
+18-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:14:22-64
+19
+20    <application
+20-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:17:5-39:19
+21        android:allowBackup="false"
+21-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:18:9-36
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.2] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\bb0a4130469d497b23ef939932e09df9\core-1.3.2\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:19:9-43
+25        android:label="@string/app_name"
+25-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:20:9-41
+26        android:supportsRtl="false"
+26-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:22:9-36
+27        android:testOnly="true"
+28        android:theme="@style/MaterialTheme" >
+28-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:21:9-45
+29        <activity
+29-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:25:9-34:20
+30            android:name="org.eclipse.paho.android.sample.activity.MainActivity"
+30-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:26:13-50
+31            android:label="@string/app_name" >
+31-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:27:13-45
+32            <intent-filter>
+32-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:28:13-32:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:29:17-69
+33-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:29:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:31:17-77
+35-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:31:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <!-- Mqtt Service -->
+40        <service android:name="org.eclipse.paho.android.service.MqttService" >
+40-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:37:9-38:19
+40-->C:\TMS_V22\Mqttsample\org.eclipse.paho.android.sample\src\main\AndroidManifest.xml:37:18-77
+41        </service>
+42    </application>
+43
+44</manifest>

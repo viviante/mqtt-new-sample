@@ -1,0 +1,7 @@
+#Wed Nov 29 14:09:05 CST 2023
+base.0=C\:\\TMS_V22\\Mqttsample\\org.eclipse.paho.android.sample\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\TMS_V22\\Mqttsample\\org.eclipse.paho.android.sample\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
